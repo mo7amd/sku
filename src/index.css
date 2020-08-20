@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  flex-flow: wrap;
+}
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  align-content: center;
+}
+.user-card {
+  border: solid 2px black;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
 }
